@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter5</title>
+    <script src="app2.js"></script>
+    <!-- <script src="app1.js"></script> -->
+
+</head>
+
+<body>
+    <h1>CHAPTER#05</h1>
+    <p>1. Write a program that take two numbers & add them in a
+        new variable. Show the result in your browser.
+    <h4>CODE</h4>
+    var a=5, b=4;<br>
+    var c=a+b;<br>
+    document.write("Sum of "+a+" and "+b+" is "+c);
+    <h4>OUTPUT</h4>
+    <script>
+        var a = 5, b = 4;
+        var c = a + b;
+        document.write("Sum of " + a + " and " + b + " is " + c);</script>
+
+    </p>
+
+    <p>---------------------------------------------------- <br>
+        2. Repeat task1 for subtraction, multiplication, division &
+        modulus.
+
+    <h4>SUBRACTION<br>CODE</h4>
+    var a=5, b=4;<br>
+    var c=a-b;<br>
+    document.write("Substraction of "+a+" and "+b+" is "+c);
+    <h4>OUTPUT</h4>
+    <script>
+        var a = 5, b = 4;
+        var c = a - b;
+        document.write("Substraction of " + a + " and " + b + " is " + c);
+    </script>
+
+
+    <h4>multiplication<br>CODE</h4>
+    var a=5, b=4;<br>
+    var c=a*b;<br>
+    document.write("multiplication of "+a+" and "+b+" is "+c);
+    <h4>OUTPUT</h4>
+    <script>
+        var a = 5, b = 4;
+        var c = a * b;
+        document.write("multiplication of " + a + " and " + b + " is " + c);
+    </script>
+
+
+    <h4>division<br>CODE</h4>
+    var a=5, b=4;<br>
+    var c=a/b;<br>
+    document.write("division of "+a+" and "+b+" is "+c);
+    <h4>OUTPUT</h4>
+    <script>
+        var a = 5, b = 4;
+        var c = a / b;
+        document.write("division of " + a + " and " + b + " is " + c);
+    </script>
+
+
+
+    <h4>division<br>CODE</h4>
+    var a=5, b=4;<br>
+    var c=a mod b;<br>
+    document.write("modulus of "+a+" and "+b+" is "+c);
+    <h4>OUTPUT</h4>
+    <script>
+        var a = 5, b = 4;
+        var c = a % b;
+        document.write("modulus of " + a + " and " + b + " is " + c);
+    </script>
+
+
+
+    </p>
+
+
+    <p>---------------------------------------------------- <br>
+        3. Do the following using JS Mathematic Expressions
+        a. Declare a variable.
+        b. Show the value of variable in your browser like “Value
+        after variable declaration is: ??”.
+        c. Initialize the variable with some number.
+        d. Show the value of variable in your browser like “Initial
+        value: 5”.
+        e. Increment the variable.
+        f. Show the value of variable in your browser like “Value
+        after increment is: 6”.
+        g. Add 7 to the variable.
+        h. Show the value of variable in your browser like “Value
+        after addition is: 13”.
+        i. Decrement the variable.
+        j. Show the value of variable in your browser like “Value
+        after decrement is: 12”.
+        k. Show the remainder after dividing the variable’s value
+        by 3.
+        l. Output : “The remainder is : 0”.
+
+    <h4>CODE</h4>
+
+    var a;
+    document.writeln("Value after variable declaration is: Undefined "); <br>
+    document.write("br"); <br>
+
+    a=5;<br>
+    document.writeln("Initial value: "+a);<br>
+    document.write("br"); <br>
+    a++;<br>
+    document.writeln("Value after increment is: "+a);<br>
+    document.write("br"); <br>
+    var b=a+7;<br>
+    document.writeln("Value after addition is: "+b);<br>
+    document.write("br"); <br>
+    b--;<br>
+    document.writeln("Value after decrement is: "+b);<br>
+    document.write("br"); <br>
+    var c=b%3;<br>
+    document.writeln("The remainder is : "+c);<br>
+
+    <h4>OUTPUT</h4>
+
+    <script>
+        var a;
+        document.writeln("Value after variable declaration is: Undefined ");
+        document.write("<br>");
+
+        a = 5;
+        document.writeln("Initial value: " + a);
+        document.write("<br>");
+        a++;
+        document.writeln("Value after increment is: " + a);
+        document.write("<br>");
+        var b = a + 7;
+        document.writeln("Value after addition is: " + b);
+        document.write("<br>");
+        b--;
+        document.writeln("Value after decrement is: " + b);
+        document.write("<br>");
+        var c = b % 3;
+        document.writeln("The remainder is : " + c);
+
+    </script>
+
+    </p>
+
+
+
+
+
+    <p>---------------------------------------------------- <br>
+        4. Cost of one movie ticket is 600 PKR. Write a script to
+        store ticket price in a variable & calculate the cost of buying 5
+        tickets to a movie. Example output:
+    <h4>CODE</h4>
+
+    var t1=600;<br>
+    var st=600*5;<br>
+    document.write("Total Cost to buy 5 Tickets to a movies is "+st+"PKR");
+
+    <h4>OUTPUT</h4>
+
+    <script>
+        var t1 = 600;
+        var st = 600 * 5;
+        document.write("Total Cost to buy 5 Tickets to a movies is " + st + "PKR");
+    </script>
+
+    </p>
+
+
+
+
+
+    <p>---------------------------------------------------- <br>
+        5. Write a script to display multiplication table of any
+        number in your browser. E.g
+    <h4>CODE</h4>
+    document.write("Table of 4"+"br");<br>
+
+    for(var i=1; i<=10; i++){<br>
+        var n=4;<br>
+
+        document.write(n+"*"+i+"="+n*i+"<br>");
+
+        }
+
+
+        <h4>OUTPUT</h4>
+
+        <script>
+            document.write("Table of 4" + "<br>");
+
+            for (var i = 1; i <= 10; i++) {
+                var n = 4;
+
+                document.write(n + "*" + i + "=" + n * i + "<br>");
+
+            }
+        </script>
+
+        </p>
+
+
+
+
+        <p>---------------------------------------------------- <br>
+            6. The Temperature Converter: It’s hot out! Let’s make a
+            converter based on the steps here.
+            a. Store a Celsius temperature into a variable.
+            b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+            c. Now store a Fahrenheit temperature into a variable.
+            d. Convert it to Celsius & output “NNoF is NNoC”.
+        <h4>CODE</h4>
+
+        <h4>CODE</h4>
+        var c=25;<br>
+        var F=(c*9/5)+32;<br>
+        document.write(c+"C is "+F+"F"+"br");<br>
+        var f=70;<br>
+        var C=(f-32)*5/9;<br>
+
+
+        document.write(f+"F is "+C+"C");
+
+
+        <h4>OUTPUT</h4>
+
+        <script>
+            var c = 25;
+            var F = (c * 9 / 5) + 32;
+            document.write(c + "C is " + F + "F" + "<br>");
+            var f = 70;
+            var C = (f - 32) * 5 / 9;
+
+
+            document.write(f + "F is " + C + "C");
+
+
+
+
+        </script>
+
+        </p>
+
+
+
+
+        <p>---------------------------------------------------- <br>
+            7. Write a program to implement checkout process of a
+            shopping cart system for an e-commerce website. Store
+            the following in variables
+
+            a. Price of item 1
+            b. Price of item 2
+            c. Ordered quantity of item 1
+            d. Ordered Quantity of item 2
+            e. Shipping charges
+            Compute the total cost & show the receipt in your browser.
+
+        <h4>CODE</h4>
+        var a1=650;<br>
+        var q1=3;<br>
+        var a2=100;<br>
+        var q2=7;<br>
+        var sc=100;<br>
+        document.write("Price of item 1 is "+a1+"br");<br>
+        document.write("Quantity of item 1 is "+q1+"br");<br>
+
+        document.write("Price of item 2 is "+a2+"br");<br>
+        document.write("Quantity of item 1 is "+q2+"br");<br>
+        document.write("Shipping Charges "+sc+"br");<br>
+        document.write("br");<br>
+        document.write("Total cost of your order is "+((a1*q1)+(a2*q2)+sc));<br>
+
+
+        <h4>OUTPUT</h4>
+
+        <script>
+            var a1 = 650;
+            var q1 = 3;
+            var a2 = 100;
+            var q2 = 7;
+            var sc = 100;
+            document.write("Price of item 1 is " + a1 + "<br>");
+            document.write("Quantity of item 1 is " + q1 + "<br>");
+
+            document.write("Price of item 2 is " + a2 + "<br>");
+            document.write("Quantity of item 1 is " + q2 + "<br>");
+            document.write("Shipping Charges " + sc + "<br>");
+            document.write("<br>");
+            document.write("Total cost of your order is " + ((a1 * q1) + (a2 * q2) + sc));
+
+
+
+
+
+        </script>
+
+        </p>
+
+
+
+        <p>---------------------------------------------------- <br>
+            8. Store total marks & marks obtained by a student in 2
+            variables. Compute the percentage & show the result in
+            your browser
+        <h4>CODE</h4>
+
+        <h4>CODE</h4>
+        document.write("<h3>MARK SHEET</h3>"+"br")<br>
+        var tm=980;<br>
+        var ob=809;<br>
+        var p=(809/980)*100<br>
+        document.write("Total Marks: "+tm+"br")<br>
+        document.write("Obtain Marks: "+ob+"br")<br>
+
+        document.write("Percentage: "+p+"%")
+
+        <h4>OUTPUT</h4>
+
+        <script>
+            document.write("<h3>MARK SHEET</h3>" + "<br>")
+            var tm = 980;
+            var ob = 809;
+            var p = (809 / 980) * 100
+            document.write("Total Marks: " + tm + "<br>")
+            document.write("Obtain Marks: " + ob + "<br>")
+
+            document.write("Percentage: " + p + "%")
+
+        </script>
+
+        </p>
+
+
+        
+        <p>---------------------------------------------------- <br>
+            9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+            script to convert the total currency to Pakistani Rupees.
+            Perform all calculations in a single expression.
+            (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+            and 1 Saudi Riyal = 28 Pakistani Rupee) 
+
+        <h4>CODE</h4>
+        var us=10;<br>
+           var sr = 25;<br>
+            var total = (us*104.80)+(sr*28);<br>
+            document.write("Total Currency in PKR: "+total )
+          
+        <h4>OUTPUT</h4>
+
+        <script>
+           var us=10;
+           var sr = 25;
+            var total = (us*104.80)+(sr*28);
+            document.write("Total Currency in PKR: "+total )
+           
+        </script>
+
+        </p>
+
+
+        
+        
+        <p>---------------------------------------------------- <br>
+            10. Write a program to initialize a variable with some
+            number and do arithmetic in following sequence:
+            a. Add 5
+            b. Multiply by 10
+            c. Divide the result by 2
+            Perform all calculations in a single expression
+
+        <h4>CODE</h4>
+        var total = 10+5*10/2;<br>
+        document.write("Total: "+total )
+           
+        <h4>OUTPUT</h4>
+
+        <script>
+            var total = 10+5*10/2;
+            document.write("Total: "+total )
+           
+        </script>
+
+        </p>
+
+        
+        <p>---------------------------------------------------- <br>
+            11. The Age Calculator: Forgot how old someone is?
+            Calculate it!
+            a. Store the current year in a variable.
+            b. Store their birth year in a variable.
+            c. Calculate their 2 possible ages based on the stored
+            values.
+            Output them to the screen like so: “They are either NN or NN
+            years old”.
+        <h4>CODE</h4>
+        var cyear = 2020;<br>
+        var byear = 1996;<br>
+        document.write("Current Year: "+cyear +"br")<br>
+        document.write("Birth Year: "+byear +"br")<br>
+        document.write("Your Age is: "+(cyear-byear) )
+           
+        <h4>OUTPUT</h4>
+
+        <script>
+            var cyear = 2020;
+            var byear = 1996;
+            document.write("Current Year: "+cyear +"<br>")
+            document.write("Birth Year: "+byear +"<br>")
+            document.write("Your Age is: "+(cyear-byear) )
+           
+        </script>
+
+        </p>
+
+
+
+        
+        
+        <p>---------------------------------------------------- <br>
+            12. The Geometrizer: Calculate properties of a circle.
+a. Store a radius into a variable.
+MATH EXPRESSIONS | JAVASCRIPT
+Page 8 of 9
+b. Calculate the circumference based on the radius, and
+output “The circumference is NN”.
+(Hint : Circumference of a circle = 2 π r , π = 3.142)
+Calculate the area based on the radius, and output “The
+area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+       <h4>CODE</h4>
+       var r=20;<br>
+       document.write("Radius of a Circle: "+r +"br")<br>
+       document.write("Circumference of a circle "+(2*3.142*r) +"br")<br>
+       document.write("Area of a circle: "+(3.142*r*r) )
+         
+        <h4>OUTPUT</h4>
+
+        <script>
+            var r=20;
+            document.write("Radius of a Circle: "+r +"<br>")
+            document.write("Circumference of a circle "+(2*3.142*r) +"<br>")
+            document.write("Area of a circle: "+(3.142*r*r) )
+           
+        </script>
+
+        </p>
+
+
+          
+        <p>---------------------------------------------------- <br>
+            13. The Lifetime Supply Calculator: Ever wonder how
+            much a “lifetime supply” of your favorite snack is?
+            Wonder no more.
+            a. Store your favorite snack into a variable
+            b. Store your current age into a variable.
+            c. Store a maximum age into a variable.
+            d. Store an estimated amount per day (as a number).
+            e. Calculate how many would you eat total for the rest of
+            your life.
+            Output the result to the screen like so: “You will need
+            NNNN to last you until the ripe old age of NN”.
+       <h4>CODE</h4>
+       var snack="Lays"; <br>
+       var age=23;<br>
+       var maxAge=65;<br>
+       var em=2;<br>
+       document.write("Favourite Snack: "+snack +"br")<br>
+       document.write("Current Age: "+age+"br")<br>
+
+       document.write("Estimated Maximum Age: "+maxAge+"br")<br>
+       document.write("Amount of snacks per day: "+em +"br")<br>
+       document.write("You will need " +(maxAge-age)*em+ " to last you until the ripe old age of: "+maxAge )
+
+        <h4>OUTPUT</h4>
+
+        <script>
+            var snack="Lays";
+            var age=23;
+            var maxAge=65;
+            var em=2;
+            document.write("Favourite Snack: "+snack +"<br>")
+            document.write("Current Age: "+age+"<br>")
+
+            document.write("Estimated Maximum Age: "+maxAge+"<br>")
+            document.write("Amount of snacks per day: "+em +"<br>")
+            document.write("You will need " +(maxAge-age)*em+ " to last you until the ripe old age of: "+maxAge )
+
+
+            
+        </script>
+
+        </p>
+
+
+
+
+    </body>
+
+</html>
